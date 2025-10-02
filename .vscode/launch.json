@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to .NET Functions",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:azureFunctions.pickProcess}"
+        },
+        {
+            "name": "Debug Console App",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/LocalRelayServer/bin/Debug/net9.0/LocalRelayServer.dll",
+            "cwd": "${workspaceFolder}/LocalRelayServer"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Debug Function + Console",
+            "configurations": [
+                "Attach to .NET Functions",
+                "Debug Console App"
+            ]
+        }]
+    }

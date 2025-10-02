@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoundryLocalClient", "FoundryLocalClient\FoundryLocalClient.csproj", "{5E2EE455-3E6B-4379-9839-2A0F0259BC42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalClients", "LocalClients\LocalClients.csproj", "{5E2EE455-3E6B-4379-9839-2A0F0259BC42}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopilotStudioWithFoundryLocal.Tests", "CopilotStudioWithFoundryLocal.Tests\CopilotStudioWithFoundryLocal.Tests.csproj", "{95A709C1-978A-44ED-81A2-94E9BB4F5F3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalRelayServer", "LocalRelayServer\LocalRelayServer.csproj", "{16A49AF9-7AFC-4313-B285-2071259DE34E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelayClient", "RelayClient\RelayClient.csproj", "{21B4026F-2752-4BF1-9678-EA57CB0D6096}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,30 @@ Global
 		{95A709C1-978A-44ED-81A2-94E9BB4F5F3D}.Release|x64.Build.0 = Release|Any CPU
 		{95A709C1-978A-44ED-81A2-94E9BB4F5F3D}.Release|x86.ActiveCfg = Release|Any CPU
 		{95A709C1-978A-44ED-81A2-94E9BB4F5F3D}.Release|x86.Build.0 = Release|Any CPU
+		{16A49AF9-7AFC-4313-B285-2071259DE34E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A49AF9-7AFC-4313-B285-2071259DE34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A49AF9-7AFC-4313-B285-2071259DE34E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{16A49AF9-7AFC-4313-B285-2071259DE34E}.Debug|x64.Build.0 = Debug|Any CPU
+		{16A49AF9-7AFC-4313-B285-2071259DE34E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{16A49AF9-7AFC-4313-B285-2071259DE34E}.Debug|x86.Build.0 = Debug|Any CPU
+		{16A49AF9-7AFC-4313-B285-2071259DE34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A49AF9-7AFC-4313-B285-2071259DE34E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A49AF9-7AFC-4313-B285-2071259DE34E}.Release|x64.ActiveCfg = Release|Any CPU
+		{16A49AF9-7AFC-4313-B285-2071259DE34E}.Release|x64.Build.0 = Release|Any CPU
+		{16A49AF9-7AFC-4313-B285-2071259DE34E}.Release|x86.ActiveCfg = Release|Any CPU
+		{16A49AF9-7AFC-4313-B285-2071259DE34E}.Release|x86.Build.0 = Release|Any CPU
+		{21B4026F-2752-4BF1-9678-EA57CB0D6096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B4026F-2752-4BF1-9678-EA57CB0D6096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B4026F-2752-4BF1-9678-EA57CB0D6096}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{21B4026F-2752-4BF1-9678-EA57CB0D6096}.Debug|x64.Build.0 = Debug|Any CPU
+		{21B4026F-2752-4BF1-9678-EA57CB0D6096}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{21B4026F-2752-4BF1-9678-EA57CB0D6096}.Debug|x86.Build.0 = Debug|Any CPU
+		{21B4026F-2752-4BF1-9678-EA57CB0D6096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B4026F-2752-4BF1-9678-EA57CB0D6096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B4026F-2752-4BF1-9678-EA57CB0D6096}.Release|x64.ActiveCfg = Release|Any CPU
+		{21B4026F-2752-4BF1-9678-EA57CB0D6096}.Release|x64.Build.0 = Release|Any CPU
+		{21B4026F-2752-4BF1-9678-EA57CB0D6096}.Release|x86.ActiveCfg = Release|Any CPU
+		{21B4026F-2752-4BF1-9678-EA57CB0D6096}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
